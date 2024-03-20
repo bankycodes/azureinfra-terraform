@@ -1,5 +1,3 @@
-
-
 # Network security group for the webserver vmss
 resource "azurerm_network_security_group" "vmss-webserver" {
   name                = "vmsss-api-nsg"
